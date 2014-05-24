@@ -11,7 +11,9 @@
   <depend package="roscpp"/>
   <depend package="dvo_core"/>
   <depend package="dvo_ros"/>
-  <depend package="pcl"/>
+  <!-- <depend package="pcl"/> -->
+  <depend package="pcl_ros"/>
+  <depend package="pcl_conversions"/>
   
   <depend package="common_rosdeps" />
   <rosdep name="eigen" />
